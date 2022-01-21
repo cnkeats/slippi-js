@@ -174,6 +174,48 @@ const externalCharacters: CharacterInfo[] = [
     shortName: "Ganon",
     colors: [DEFAULT_COLOR, "Red", "Blue", "Green", "Purple"],
   },
+  {
+    id: Character.MASTER_HAND,
+    name: "Master Hand",
+    shortName: "M-Hand",
+    colors: ["Default"],
+  },
+  {
+    id: Character.WIREFRAME_MALE,
+    name: "Wireframe Male",
+    shortName: "Wire-M",
+    colors: ["Default"],
+  },
+  {
+    id: Character.WIREFRAME_FEMALE,
+    name: "Wireframe Female",
+    shortName: "Wire-F",
+    colors: ["Default"],
+  },
+  {
+    id: Character.GIGA_BOWSER,
+    name: "Giga Bowser",
+    shortName: "G-Bowser",
+    colors: ["Default"],
+  },
+  {
+    id: Character.CRAZY_HAND,
+    name: "Crazy Hand",
+    shortName: "C-Hand",
+    colors: ["Default"],
+  },
+  {
+    id: Character.SANDBAG,
+    name: "Sandbag",
+    shortName: "Sandbag",
+    colors: ["Default"],
+  },
+  {
+    id: Character.POPO,
+    name: "Popo",
+    shortName: "SoPo",
+    colors: ["Default"],
+  },
 ];
 
 export function getAllCharacters(): CharacterInfo[] {
