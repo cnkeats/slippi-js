@@ -10,6 +10,7 @@ export * from "./utils/slpFile";
 export * from "./utils/slpFileWriter";
 export * from "./utils/slpParser";
 export * from "./utils/slpStream";
+export * from "./utils/gameTimer";
 
 // Console networking
 export * from "./console";

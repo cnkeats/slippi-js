@@ -67,6 +67,12 @@ export interface GameInfo {
   damageRatio: number | null;
 }
 
+export enum TimerType {
+  NONE = 0b00,
+  DECREASING = 0b10,
+  INCREASING = 0b11,
+}
+
 export interface PreFrameUpdateType {
   frame: number | null;
   playerIndex: number | null;
